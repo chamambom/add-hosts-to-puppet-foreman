@@ -8,9 +8,9 @@ on puppet master node (Which in my case is also where Foreman is also installed)
 
 Run these commands
 
-puppet cert sign --all
-systemctl restart puppet
-systemctl restart foreman-proxy
-systemctl restart foreman
+#puppet cert sign --all
+#systemctl restart puppet
+#systemctl restart foreman-proxy
+#systemctl restart foreman
 
 
